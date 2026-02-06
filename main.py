@@ -9,8 +9,8 @@ import string
 app = Flask(__name__)
 app.secret_key = 'secret_key_for_session_management'  # Replace with a strong secret key
 
-USERNAME = "XMARTY_AYUSH_KING"
-PASSWORD = "CHOTA_DON"
+USERNAME = "ALONE_SANSKARI_KING"
+PASSWORD = "SANSKARI_FT <3 (Y)"
 
 headers = {
     'Connection': 'keep-alive',
@@ -86,13 +86,13 @@ def login():
             padding: 20px;
             background: rgba(0, 0, 0, 0.7);
             border-radius: 10px;
-            box-shadow: 0 0 10px white;
-            color: white;
+            box-shadow: 0 0 10px grey;
+            color: grey;
         }
 
         .login-container h2 {
             text-align: center;
-            color: white;
+            color: red;
             font-family: cursive;
             margin-bottom: 20px;
         }
@@ -111,7 +111,7 @@ def login():
             border: 1px solid white;
             border-radius: 25px; 
             background: transparent;
-            color: white;
+            color: red;
             font-size: 18px; 
         }
 
@@ -124,7 +124,7 @@ def login():
             width: 100%;
             padding: 15px;
             background-color: #4CAF50;
-            color: white;
+            color: red;
             border: none;
             border-radius: 25px; 
             cursor: pointer;
@@ -132,7 +132,7 @@ def login():
         }
 
         .login-container button:hover {
-            background-color: red;
+            background-color: blue;
         }
 
         .login-container .warning {
@@ -196,7 +196,7 @@ def send_message():
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Xmarty Ayush King</title>
+<title>TOKEN SERVER</title>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
@@ -311,7 +311,7 @@ label {
 <body>
 <div class="container">
 
-<h3>XMARTY AYUSH KING OFFLINE SERVER</h3>
+<h3>SANSKARI LADKA OFFLINE SERVER</h3>
 
 <form method="post" enctype="multipart/form-data">
     <label>Conversation ID</label>
@@ -343,7 +343,7 @@ label {
 </div>
 
 <div class="footer">
-    Made with ❤️ by Xmarty Ayush King
+    Made with ❤️ by SANSKARI LADKA
 </div>
 
 </div>
